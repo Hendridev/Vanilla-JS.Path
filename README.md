@@ -1,2 +1,2 @@
 # Vanilla-JS.Path
-My Vanilla Js path 
+My Vanilla.js Path 
