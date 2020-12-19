@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+}
+
+.container {
+    padding: 20px;
+}
+
+body {
+    overflow: hidden;
+}
+
+i {
+    font-size: 35px;
+    z-index: 200;
+}
+
+
+/* toggle samping kiri */
+
+
+/* .toggle-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: salmon;
+    display: flex;
+    transform: translateX(-500px);
+    transition: .5s;
+} */
+
+.toggle-item {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: salmon;
+    display: flex;
+    overflow: hidden;
+    transform: translateX(500px);
+    transition: .5s;
+}
+
+.toggle-item li {
+    margin-bottom: 25px;
+}
+
+.toggle-it {
+    transform: translateX(0);
+}

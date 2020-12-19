@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        * {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        html,
+        body {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="h1">Color picker</h1>
+    <button class="button">Reset</button>
+    <br>
+    <br>
+    <input type="range" name="red" min="1" max="255" value="0">
+    <input type="range" name="green" min="1" max="255" value="0">
+    <input type="range" name="blue" min="1" max="255" value="0">
+    <br>
+    <br>
+    <input type="text" id="dec_warna" style="height: 30px;">
+    <br>
+    <br>
+    <input type="text" id="hex_warna" style="height: 30px;">
+    <script src="script.js"></script>
+</body>
+
+</html>
